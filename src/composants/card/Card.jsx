@@ -26,12 +26,12 @@ function Card({ style }) {
           <p className="text-2xl font-semibold">Luxury villa in Rego Park</p>
         </div>
 
-        <div className=" w-full h-[24px] flex flex-row  bg-black/ sm:bg-white/ sm:text-lg   ">
-          <p className=" w-[20vh] lg:w-[14vh]  border-r border-r-black ">3 Bedrooms</p>
-          <p className=" w-[20vh]  bg-red-300/ lg:w-[14vh]  flex justify-center border-r border-r-black ">
+        <div className=" w-full h-[24px] text-sm flex flex-row  bg-green-100/ sm:bg-white/ sm:text-lg   ">
+          <p className=" w-[15vh] lg:w-[14vh] bg-green-100/ border-r border-r-black ">3 Bedrooms</p>
+          <p className=" w-[15vh]  bg-red-300/ lg:w-[14vh]  flex justify-center border-r border-r-black ">
             2 Bathrooms
           </p>
-          <p className=" w-[17vh]  bg-red-300/ lg:w-[19vh]  flex justify-center">2500 Square FT</p>
+          <p className=" w-[17vh] ml-1  bg-red-300/ lg:w-[19vh] flex justify-center">2500 Square FT</p>
         </div>
 
         <div className=" w-full h-[56px] flex flex-row justify-between items-center bg-black/ ">

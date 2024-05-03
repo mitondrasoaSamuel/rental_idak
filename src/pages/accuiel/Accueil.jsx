@@ -16,7 +16,7 @@ function Accueil() {
       <NavBar  />
     
 
-      <SectionHome  />
+      <SectionHome   />
       <SectionRentals className="w-full mb-24" />
       <SectionCategorie className="flex flex-col items-center" />
       <About className="mt-24 "/>

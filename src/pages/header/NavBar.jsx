@@ -18,7 +18,7 @@ function NavBar() {
 
   return (
     <div className="fixed w-full bg-white shadow-md z-10 ">
-      <div className="flex  sm:bg-blue-200/ justify-between  items-center h-[12vh]  bg-red-100/ w-full gap-x-8 p-4 sm:px-10 lg:px-2 xl:px-40 ">
+      <div className="flex  sm:bg-blue-200/ justify-between  items-center h-[12vh]  bg-red-100/ w-full gap-x-8 p-4 sm:px-10 lg:px-2 xl:px-10 ">
         <div className="bg-white ">
           <LinkScroll to="home">
             <img
@@ -56,7 +56,7 @@ function NavBar() {
           <Button
             severity="danger"
             text
-            className="font-medium  rounded-full mr-4 hidden "
+            className="font-medium  rounded-full mr-4 hidden xl:block"
           >
             <LuUser className="mr-1" />
             Sign in
@@ -67,7 +67,7 @@ function NavBar() {
           </Button>
           <button
             onClick={() => setVisibleRight(true)}
-            className="bg-transparent text-black text-5xl lg:hidden block bg-green-500/  "
+            className="bg-transparent text-black text-xl sm:text-3xl lg:hidden block bg-green-500/  "
           >
             <IoMenuSharp />
           </button>

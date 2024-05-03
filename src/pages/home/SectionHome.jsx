@@ -9,9 +9,9 @@ import { Button } from "primereact/button";
 
 function SectionHome() {
   return (
-    <div className="" id="home">
+    <div className="flex-1" id="home">
       <div
-        className="h-[89vh]"
+        className="h-full/"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundRepeat: `no-repeat`,
@@ -19,7 +19,7 @@ function SectionHome() {
           backgroundPosition: `bottom`,
         }}
       >
-        <div className=" flex justify-center items-center bg-red-300/  mx-5 m">
+        <div className=" flex justify-center items-center bg-red-300/  mx-5">
           <div className=" w-full  flex flex-col items-center bg-green-300/ my-16 lg:my-[15vh] ">
             <div className="  mb-12 flex flex-col items-center  gap-y-10">
               <div className=" flex flex-col md:flex-row md:gap-x-5  lg:w-full justify-center  ">
@@ -76,7 +76,7 @@ function SectionHome() {
                       <LiaMapMarkerSolid className="mr-3 text-2xl" />
                     </i>
 
-                    <select className="block w-[214px]/ px-5 p-4 mt-1 !bg-transparent border border-transparent  rounded-md shadow-sm focus:outline-none focus:border-white focus:ring/ focus:ring-white text-black/70 mr-9">
+                    <select className="block  px-5 p-4 mt-1 !bg-transparent border border-transparent  rounded-md shadow-sm focus:outline-none focus:border-white focus:ring/ focus:ring-white text-black/70 mr-9">
                       <option value="" className="text-black/70">
                         Select Location
                       </option>
