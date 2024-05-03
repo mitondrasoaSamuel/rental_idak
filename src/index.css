@@ -1,0 +1,29 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+@font-face {
+  font-family: "plusjakartaMedium;";
+  src: url("../src/assets/static/PlusJakartaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "plusjakartaLight;";
+  src: url("../src/assets/static/PlusJakartaSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "plusjakartaBold;";
+  src: url("../src/assets/static/PlusJakartaSans-Bold.ttf");
+}
+
+* {
+  font-family: "plusjakartaMedium", sans-serif;
+}
